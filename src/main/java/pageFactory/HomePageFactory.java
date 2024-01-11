@@ -11,7 +11,7 @@ import org.testng.Assert;
 public class HomePageFactory {
 	WebDriver driver;
 	String text="Test git commit";
-	
+	String text="Test git pull";
 	@FindBy(xpath = "//div[contains(text(), \"Total Balance\")]//following::span[1]")
 	WebElement totalBalanceLabelFactoryWE;
 	
